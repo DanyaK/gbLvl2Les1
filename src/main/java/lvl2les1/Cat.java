@@ -1,26 +1,28 @@
-public class Human implements Participant {
+package lvl2les1;
+
+public class Cat implements Participant {
 
     int heightLimit = 0;
     int lengthLimit = 0;
 
     boolean status = true;
 
-    Human(int h, int l) {
-        System.out.printf("\t\tHUMAN h = %s, l = %s \n", h, l);
+    Cat(int h, int l) {
+        System.out.printf("\t\tCAT h = %s, l = %s \n", h, l);
         this.heightLimit = h;
         this.lengthLimit = l;
     }
+
     public void run () {
-        System.out.println("Human ran");
+        System.out.println("Cat ran");
     }
 
     public void jump() {
-        System.out.println("Human jumped");
+        System.out.println("Cat jumped");
     }
-
     @Override
     public void myName() {
-        System.out.printf("HUMAN h = %s, l = %s \n", heightLimit, lengthLimit);
+        System.out.printf("CAT h = %s, l = %s \n", heightLimit, lengthLimit);
     }
 
     @Override

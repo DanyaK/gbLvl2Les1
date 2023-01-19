@@ -1,3 +1,5 @@
+package lvl2les1;
+
 public class Treadmill extends Obstacle {
 
     int length = 1;

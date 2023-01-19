@@ -1,3 +1,5 @@
+package lvl2les1;
+
 public interface Participant {
     void jump();
     void run();

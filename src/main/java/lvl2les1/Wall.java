@@ -1,3 +1,5 @@
+package lvl2les1;
+
 public class Wall extends Obstacle {
 
     int height = 1;

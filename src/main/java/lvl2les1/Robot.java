@@ -1,3 +1,5 @@
+package lvl2les1;
+
 public class Robot implements Participant {
     int heightLimit = 0;
     int lengthLimit = 0;
