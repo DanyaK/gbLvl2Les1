@@ -42,6 +42,9 @@ public class Main {
 
     public static void getArraySum(String[][] array) throws MyArrayDataException, MyArraySizeException {
 
+
+        //AADAD
+
         try {
 
             for (int i = 0; i < array.length; i++) {
