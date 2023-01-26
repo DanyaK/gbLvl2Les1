@@ -43,6 +43,7 @@ public class Main {
     public static void getArraySum(String[][] array) throws MyArrayDataException, MyArraySizeException {
 
 
+        //Commit 3
         //Commit 2
         //AADAD
 
